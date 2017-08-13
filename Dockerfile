@@ -1,11 +1,10 @@
 FROM ermaker/keras
 
-RUN apt-get install python-mysqldb
-
 RUN conda install -y \
     jupyter \
     matplotlib \
-    seaborn
+    seaborn \
+    mysql-python
 
 VOLUME /notebook
 WORKDIR /notebook
