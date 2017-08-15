@@ -4,6 +4,7 @@ RUN conda install -y \
     jupyter \
     matplotlib \
     seaborn \
+    opencv \
     mysql-python
 
 VOLUME /notebook
