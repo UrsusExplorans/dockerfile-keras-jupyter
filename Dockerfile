@@ -7,6 +7,7 @@ RUN conda install -y \
     opencv \
     mysql-python
 
+VOLUME /data
 VOLUME /notebook
 WORKDIR /notebook
 EXPOSE 8888
